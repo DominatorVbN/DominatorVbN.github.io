@@ -1,5 +1,5 @@
 a, a:visited, a:hover, a:active {
-  color: #ff6600;
+  color: #6b51ef;
   text-decoration: none;
 }
 
@@ -12,7 +12,7 @@ p {
 
 time {
   font-family: Avenir-Heavy;
-  color: #ff6600;
+  color: #6b51ef;
   font-size: 20px;
 }
 
@@ -55,7 +55,7 @@ html {
 }
 
 .first-name {
-  color: #ff6600;
+  color: #6b51ef;
 }
 
 .last-name {
@@ -65,7 +65,7 @@ html {
 .portfolio h1 {
   font-family: Avenir-Heavy;
   font-size: 54px;
-  color: #ff6600;
+  color: #6b51ef;
   text-align: center;
   margin-top: 200px;
 }
@@ -92,7 +92,7 @@ html {
 .portfolio h3 {
   font-family: Avenir-Heavy;
   font-size: 26px;
-  color: #ff6600;
+  color: #6b51ef;
   margin-top: 50px;
 }
 
@@ -120,10 +120,10 @@ html {
   height: 44px;
   margin-top: 50px;
   border-radius: 8px;
-  border: 2px solid #ff6600;
+  border: 2px solid #6b51ef;
   font-family: Avenir-Heavy;
   font-size: 15px;
-  color: #ff6600;
+  color: #6b51ef;
   background-color: transparent;
   background-image: initial;
   text-shadow: initial;
@@ -131,10 +131,10 @@ html {
 }
 
 .more-screens-btn:hover {
-  border: 2px solid #ff6600;
+  border: 2px solid #6b51ef;
   font-size: 15px;
   color: #ffffff;
-  background-color: #ff6600;
+  background-color: #6b51ef;
   background-image: initial;
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
@@ -142,9 +142,9 @@ html {
 .more-screens-btn:active, 
 .more-screens-btn:focus {
   outline: none !important;
-  border: 2px solid #ff6600 !important;
+  border: 2px solid #6b51ef !important;
   color: #ffffff !important;
-  background-color: #ff6600 !important;
+  background-color: #6b51ef !important;
 }
 
 .portfolio-row {
@@ -159,7 +159,7 @@ html {
 .blog h1 {
   font-family: Avenir-Heavy;
   font-size: 54px;
-  color: #ff6600;
+  color: #6b51ef;
   text-align: center;
   margin-top: 200px;
   margin-bottom: 100px;
@@ -438,7 +438,7 @@ html {
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #ff6600;
+  color: #6b51ef;
   font-size: 60px;
   font-weight: bold;
   transition: 0.3s;
@@ -446,7 +446,7 @@ html {
 
 .modal-close:hover,
 .modal-close:focus {
-  color: #ff6600;
+  color: #6b51ef;
   text-decoration: none;
   cursor: pointer;
 }
@@ -473,7 +473,7 @@ html {
 .store h1 {
   font-family: Avenir-Heavy;
   font-size: 54px;
-  color: #ff6600;
+  color: #6b51ef;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -555,7 +555,7 @@ html {
 
 .store-item-column h4 {
   font-family: Avenir-Heavy;
-  color: #ff6600;
+  color: #6b51ef;
   font-size: 20px;
 }
 
@@ -567,7 +567,7 @@ html {
   font-family: Avenir-Heavy;
   font-size: 18px;
   color: #fff;
-  background-color: #ff6600;
+  background-color: #6b51ef;
   border: none;
 }
 
@@ -628,7 +628,7 @@ video {
 .post-content-container h3 {
   font-family: Avenir-Heavy;
   font-size: 40px;
-  color: #ff6600;
+  color: #6b51ef;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -695,7 +695,7 @@ video {
 }
 
 .failed {
-  color: #ff6600;
+  color: #6b51ef;
   font-family: Avenir-Black;
   font-size: 22px;
   padding-right: 10px;
@@ -768,13 +768,13 @@ video {
 }
 
 .wufoo input[type="email"]:hover, .wufoo input[type="email"]:focus {
-  border-color: #ff6600;
+  border-color: #6b51ef;
   background-color: rgba(255, 255, 255, 0.8);
   outline: none !important; 
 }
 
 .btn-wufoo {
-  background-color: #ff6600;
+  background-color: #6b51ef;
   border-radius: 8px;
   color: #fff;
   padding: 0 30px;
