@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<opml version="2.0">
+	<body>
+		<outline title="Swift Blogs">
+			<outline text="objc.io" title="objc.io" xmlUrl="http://www.objc.io/feed.xml" />
+			<outline text="Trailing Closure" title="Trailing Closure" xmlUrl="https://trailingclosure.com/rss/" />
+			<outline text="The.Swift.Dev." title="The.Swift.Dev." xmlUrl="https://theswiftdev.com/rss.xml" />
+			<outline text="The SwiftUI Lab" title="The SwiftUI Lab" xmlUrl="https://swiftui-lab.com/feed/" />
+			<outline text="SwiftRocks" title="SwiftRocks" xmlUrl="https://swiftrocks.com/rss.xml" />
+			<outline text="SwiftLee" title="SwiftLee" xmlUrl="https://www.avanderlee.com/feed" />
+			<outline text="Swift2Go - Medium" title="Swift2Go - Medium" xmlUrl="https://medium.com/feed/swift2go" />
+			<outline text="Swift.org" title="Swift.org" xmlUrl="https://swift.org/atom.xml" />
+			<outline text="Swift with Majid" title="Swift with Majid" xmlUrl="https://swiftwithmajid.com/feed.xml" />
+			<outline text="Swift by Sundell" title="Swift by Sundell" xmlUrl="https://swiftbysundell.com/rss" />
+			<outline text="Swift Senpai" title="Swift Senpai" xmlUrl="https://swiftsenpai.com/feed/" />
+			<outline text="Swift India - Medium" title="Swift India - Medium" xmlUrl="https://medium.com/feed/swift-india" />
+			<outline text="Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more" title="Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more" xmlUrl="https://www.raywenderlich.com/ios/feed.rss" />
+			<outline text="NSHipster" title="NSHipster" xmlUrl="https://nshipster.com/feed.xml" />
+			<outline text="Khanlou" title="Khanlou" xmlUrl="http://khanlou.com/feed" />
+			<outline text="If let swift = Programming! - Medium" title="If let swift = Programming! - Medium" xmlUrl="https://medium.com/feed/if-let-swift-programming" />
+			<outline text="Hacking with Swift" title="Hacking with Swift" xmlUrl="https://www.hackingwithswift.com/articles/rss" />
+			<outline text="Flight School" title="Flight School" xmlUrl="https://flight.school/feed.xml" />
+			<outline text="Flawless iOS - Medium" title="Flawless iOS - Medium" xmlUrl="https://medium.com/feed/flawless-app-stories" />
+			<outline text="AppCoda" title="AppCoda" xmlUrl="https://www.appcoda.com/feed/" />
+		</outline>
+	</body>
+</opml>
