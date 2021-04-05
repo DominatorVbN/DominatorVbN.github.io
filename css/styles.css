@@ -34,7 +34,7 @@ html {
 
 .hero {
   background-image: initial;
-  background: url(img/macbook-hero.jpg) no-repeat;
+  background: url(img/backgroundhero.png) no-repeat;
   background-size: cover;
   height: 950px;
   background-position: center;
