@@ -1,0 +1,17 @@
+# Amit Samant
+
+> Senior iOS Engineer at Rakuten Viki, based in Singapore. WWDC20 Swift
+> Student Challenge winner. Organizer of the Swift Bengaluru and Swift
+> Bharat developer communities.
+
+Amit Samant builds iOS apps with Swift and SwiftUI. He previously worked at
+Gojek, Zomato, and Loyalty Juggernaut, and writes about iOS development and
+the Swift ecosystem on his blog.
+
+## Links
+
+- [Blog](https://amitsamant.dev/blog): articles on iOS and Swift development
+- [Blog llms.txt](https://amitsamant.dev/blog/llms.txt): machine-readable index of the blog
+- [GitHub](https://github.com/DominatorVbN)
+- [Twitter/X](https://twitter.com/amitsamant_dev): @amitsamant_dev
+- [LinkedIn](https://www.linkedin.com/in/amitsamant-dev/)

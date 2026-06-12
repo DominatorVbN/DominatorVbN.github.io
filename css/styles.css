@@ -54,6 +54,36 @@ html {
   font-size: 50px;
 }
 
+.hero-tagline {
+  text-align: center;
+  color: #fff;
+  font-family: Menlo;
+  font-size: 22px;
+}
+
+.hero-links {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.hero-links .blog-link {
+  display: inline-block;
+  background-color: #6b51ef;
+  color: #fff;
+  font-family: Menlo;
+  font-size: 20px;
+  padding: 12px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.hero-links .blog-link:hover,
+.hero-links .blog-link:focus {
+  background-color: #5a41d6;
+  color: #fff;
+  text-decoration: none;
+}
+
 .first-name {
   color: #6b51ef;
 }

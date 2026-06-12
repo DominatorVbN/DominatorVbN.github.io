@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amitsamant.dev/sitemap.xml
+Sitemap: https://amitsamant.dev/blog/sitemap.xml
