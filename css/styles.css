@@ -28,6 +28,76 @@ html {
 
 /* --------------------------------------------------------------------------------------
 +
++ LIQUID GLASS NAV (liquidGL)
++
+-------------------------------------------------------------------------------------- */
+
+.glass-nav {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 40;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.glass-nav-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  /* Sits above the liquidGL lens canvas: a dark tint here keeps the white
+     links readable over both the hero image and the white page sections. */
+  background-color: rgba(22, 22, 32, 0.38);
+  border-radius: 999px;
+}
+
+.glass-nav-content a {
+  font-family: Menlo, monospace;
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 999px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  transition: background-color 0.2s ease-out;
+}
+
+.glass-nav-content a:hover,
+.glass-nav-content a:focus {
+  background-color: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  text-decoration: none;
+}
+
+.glass-nav-brand {
+  font-family: Avenir-Black, Menlo, monospace;
+  font-weight: bold;
+  color: #a795ff !important;
+}
+
+@media (max-width: 767px) {
+  .glass-nav {
+    top: 12px;
+  }
+
+  .glass-nav-content {
+    padding: 8px 10px;
+  }
+
+  .glass-nav-content a {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------
++
 + INDEX
 +
 -------------------------------------------------------------------------------------- */
@@ -68,20 +138,39 @@ html {
 
 .hero-links .blog-link {
   display: inline-block;
-  background-color: #6b51ef;
+  position: relative;
+  /* liquidGL requires all glass instances to share the same z-index */
+  z-index: 40;
+  background-color: rgba(107, 81, 239, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.28);
   color: #fff;
   font-family: Menlo;
   font-size: 20px;
-  padding: 12px 32px;
-  border-radius: 8px;
+  border-radius: 999px;
   text-decoration: none;
+}
+
+.blog-link-label {
+  /* Sits above the liquidGL lens canvas, like .glass-nav-content */
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 999px;
+  background-color: rgba(107, 81, 239, 0.55);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  transition: background-color 0.2s ease-out;
 }
 
 .hero-links .blog-link:hover,
 .hero-links .blog-link:focus {
-  background-color: #5a41d6;
   color: #fff;
   text-decoration: none;
+}
+
+.hero-links .blog-link:hover .blog-link-label,
+.hero-links .blog-link:focus .blog-link-label {
+  background-color: rgba(90, 65, 214, 0.75);
 }
 
 .first-name {

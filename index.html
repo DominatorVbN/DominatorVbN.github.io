@@ -54,6 +54,14 @@
 	</script>
 </head>
 <body>
+    <nav class="liquid-glass glass-nav" aria-label="Primary">
+        <div class="glass-nav-content">
+            <a class="glass-nav-brand" href="#">AS</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="https://amitsamant.dev/blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
     <div class="hero">
         <div class="container">
             <h1>
@@ -62,7 +70,7 @@
             </h1>
             <h2>Senior iOS Engineer</h2>
             <p class="hero-tagline">Rakuten Viki &middot; Singapore</p>
-            <p class="hero-links"><a class="blog-link" href="https://amitsamant.dev/blog">Read my blog</a></p></div>
+            <p class="hero-links"><a class="liquid-glass blog-link" href="https://amitsamant.dev/blog"><span class="blog-link-label">Read my blog</span></a></p></div>
             <!-- <div><a href="#view">View</a></div> -->
     </div>
     <!-- READD Now tab when u get reemployed  -->
@@ -78,7 +86,7 @@
             </div>
         </div>
     </div> -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <h1>PORTFOLIO</h1>
         <div class="container">
             <div class="row portfolio-row">
@@ -174,7 +182,7 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -197,4 +205,8 @@
     <script src="js/modal.js"></script>
     <script src="js/wufoo.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Liquid Glass (liquidGL, MIT) — html2canvas is a required dependency -->
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/liquidGL.js"></script>
+    <script src="js/liquid-glass-init.js"></script>
 </html>
