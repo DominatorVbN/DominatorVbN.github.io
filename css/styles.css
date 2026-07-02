@@ -46,9 +46,19 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.28);
 }
 
+/* Native CSS glass used on touch devices, where the WebGL lens lags behind
+   compositor-thread scrolling. */
+.liquid-glass-css {
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  backdrop-filter: blur(16px) saturate(160%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
 .glass-nav-content {
   position: relative;
   z-index: 2;
+  /* liquidGL sets pointer-events: none on the lens element itself */
+  pointer-events: auto;
   display: flex;
   align-items: center;
   padding: 10px 14px;
@@ -154,6 +164,8 @@ html {
   /* Sits above the liquidGL lens canvas, like .glass-nav-content */
   position: relative;
   z-index: 2;
+  /* liquidGL sets pointer-events: none on the lens element itself */
+  pointer-events: auto;
   display: inline-block;
   padding: 12px 32px;
   border-radius: 999px;
