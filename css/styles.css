@@ -148,41 +148,20 @@ html {
 
 .hero-links .blog-link {
   display: inline-block;
-  position: relative;
-  /* liquidGL requires all glass instances to share the same z-index */
-  z-index: 40;
-  background-color: rgba(107, 81, 239, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  background-color: #6b51ef;
   color: #fff;
   font-family: Menlo;
   font-size: 20px;
-  border-radius: 999px;
-  text-decoration: none;
-}
-
-.blog-link-label {
-  /* Sits above the liquidGL lens canvas, like .glass-nav-content */
-  position: relative;
-  z-index: 2;
-  /* liquidGL sets pointer-events: none on the lens element itself */
-  pointer-events: auto;
-  display: inline-block;
   padding: 12px 32px;
-  border-radius: 999px;
-  background-color: rgba(107, 81, 239, 0.55);
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
-  transition: background-color 0.2s ease-out;
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 .hero-links .blog-link:hover,
 .hero-links .blog-link:focus {
+  background-color: #5a41d6;
   color: #fff;
   text-decoration: none;
-}
-
-.hero-links .blog-link:hover .blog-link-label,
-.hero-links .blog-link:focus .blog-link-label {
-  background-color: rgba(90, 65, 214, 0.75);
 }
 
 .first-name {
